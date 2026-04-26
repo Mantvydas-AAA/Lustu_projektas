@@ -1,0 +1,4 @@
+UART 8 bit. 
+1 start bit
+8 data bits
+1 stop bit
