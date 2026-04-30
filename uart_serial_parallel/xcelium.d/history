@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(30Apr2026:13:19:35):( xrun -gui -access +rw uart1_testbench.v uart1.v )&&(./xcelium.d/env.d/env.history.30Apr2026_13_19_35)
+s2::(30Apr2026:13:24:45):( xrun -access +rw uart1_testbench.v uart1.v )&&(./xcelium.d/env.d/env.history.30Apr2026_13_24_45)
+s3::(30Apr2026:13:25:40):( xrun -gui -access +rw uart1_testbench.v uart1.v )&&(./xcelium.d/env.d/env.history.30Apr2026_13_25_40)
+s4::(30Apr2026:13:29:18):( xrun -access +rw uart1_tb.v uart1.v )&&(./xcelium.d/env.d/env.history.30Apr2026_13_29_18)
+s5::(30Apr2026:13:29:30):( xrun -access +rw uart1_tb.v uart1.v )&&(./xcelium.d/env.d/env.history.30Apr2026_13_29_30)
+s6::(30Apr2026:13:32:08):( xrun -access +rw uart1_tb.v uart1.v )&&(./xcelium.d/env.d/env.history.30Apr2026_13_32_08)
+s7::(30Apr2026:13:33:53):( xrun -access +rw uart1_tb.v uart1.v )&&(./xcelium.d/env.d/env.history.30Apr2026_13_33_53)

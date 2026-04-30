@@ -1,0 +1,87 @@
+*** Message Type: info ***
+When: Thu Apr 30 01:19:35 PM EEST 2026
+SimVision started.
+Version: TOOL:  simvision(64)   25.03-s006
+User: laos_9w
+Host: la.ktu.local
+Platform: Linux/x86_64/4.18.0-553.111.1.el8_10.x86_64
+Started: Thu Apr 30 01:19:35 PM EEST 2026
+Command: /eda/cadence/2025-26/RHELx86/XCELIUM_25.03.006/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:la.ktu.local:34245 -64BIT -nocopyright
+Work Directory: /home/laos_9w/uart_serial_parallel
+ 
+*** Message Type: info ***
+When: Thu Apr 30 01:19:36 PM EEST 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Apr 30 01:19:36 PM EEST 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Thu Apr 30 01:19:36 PM EEST 2026
+Connect to Simulator
+      Design: worklib.uart_8bitserial_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:       xmsim(64)       25.03-s006
+        User: laos_9w
+        Host: la.ktu.local
+Time Started: Thu Apr 30 01:19:35 PM EEST 2026
+  Process ID: 3217953
+   Directory: /home/laos_9w/uart_serial_parallel
+     Command: xrun -gui -access +rw uart1_testbench.v uart1.v
+
+ 
+*** Message Type: info ***
+When: Thu Apr 30 01:19:36 PM EEST 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Thu Apr 30 01:28:26 PM EEST 2026
+Exit XM-Sim: user
+      Design: worklib.uart_8bitserial_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:       xmsim(64)       25.03-s006
+        User: laos_9w
+        Host: la.ktu.local
+Time Started: Thu Apr 30 01:19:35 PM EEST 2026
+  Process ID: 3217953
+   Directory: /home/laos_9w/uart_serial_parallel
+     Command: xrun -gui -access +rw uart1_testbench.v uart1.v
+
+ 
+*** Message Type: error ***
+When: Thu Apr 30 01:28:26 PM EEST 2026
+XM-Sim Crashed:
+      Design: worklib.uart_8bitserial_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:       xmsim(64)       25.03-s006
+        User: laos_9w
+        Host: la.ktu.local
+Time Started: Thu Apr 30 01:19:35 PM EEST 2026
+  Process ID: 3217953
+   Directory: /home/laos_9w/uart_serial_parallel
+     Command: xrun -gui -access +rw uart1_testbench.v uart1.v
+      Design: worklib.uart_8bitserial_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:       xmsim(64)       25.03-s006
+        User: laos_9w
+        Host: la.ktu.local
+Time Started: Thu Apr 30 01:19:35 PM EEST 2026
+  Process ID: 3217953
+   Directory: /home/laos_9w/uart_serial_parallel
+     Command: xrun -gui -access +rw uart1_testbench.v uart1.v
+
+Outstanding STRAP Requests:
+        strap::reinvoke savestate /home/laos_9w/uart_serial_parallel/.simvision/3217986_laos_9w__autosave.tcl {# XM-Sim Command File
+# TOOL:       xmsim(64)       25.03-s006
+#
+} {simvision -input /home/laos_9w/uart_serial_parallel/.simvision/3217986_laos_9w__autosave.tcl.svcf}
+ 
+*** Message Type: info ***
+When: Thu Apr 30 01:28:32 PM EEST 2026
+SimVision Exit.
+ 

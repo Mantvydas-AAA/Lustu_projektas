@@ -1,0 +1,58 @@
+xrun(64): 25.03-s006: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	25.03-s006: Started on Apr 30, 2026 at 13:33:53 EEST
+xrun
+	-access +rw
+	uart1_tb.v
+	uart1.v
+Recompiling... reason: unable to stat '/./home/laos_9w/uart_serial_parallel/uart1_testbench.v'.
+file: uart1_tb.v
+	module worklib.SIPO_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		SIPO_tb
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.uart_8bitserial:v <0x4e9689d7>
+			streams:   3, words:  1083
+		worklib.SIPO_tb:v <0x20e10f87>
+			streams:   8, words:  8584
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:               6       6
+		Scalar wires:            4       -
+		Vectored wires:          1       -
+		Always blocks:           2       2
+		Initial blocks:          2       2
+		Pseudo assignments:      4       -
+		Process Clocks:          1       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.SIPO_tb:v
+Loading snapshot worklib.SIPO_tb:v .................... Done
+xcelium> source /eda/cadence/2025-26/RHELx86/XCELIUM_25.03.006/tools/xcelium/files/xmsimrc
+xcelium> run
+Time=0 | reset=1 shift=0 serial_in=0 parallel_out=00000000
+Time=10000 | reset=0 shift=1 serial_in=1 parallel_out=00000000
+Time=25000 | reset=0 shift=1 serial_in=1 parallel_out=00000001
+Time=30000 | reset=0 shift=1 serial_in=0 parallel_out=00000001
+Time=35000 | reset=0 shift=1 serial_in=0 parallel_out=00000011
+Time=40000 | reset=0 shift=1 serial_in=1 parallel_out=00000011
+Time=45000 | reset=0 shift=1 serial_in=1 parallel_out=00000110
+Time=50000 | reset=0 shift=1 serial_in=0 parallel_out=00000110
+Time=55000 | reset=0 shift=1 serial_in=0 parallel_out=00001101
+Time=60000 | reset=0 shift=1 serial_in=1 parallel_out=00001101
+Time=65000 | reset=0 shift=1 serial_in=1 parallel_out=00011010
+Time=75000 | reset=0 shift=1 serial_in=1 parallel_out=00110101
+Time=80000 | reset=0 shift=1 serial_in=0 parallel_out=00110101
+Time=85000 | reset=0 shift=1 serial_in=0 parallel_out=01101011
+Time=90000 | reset=0 shift=0 serial_in=0 parallel_out=01101011
+Time=110000 | reset=1 shift=0 serial_in=0 parallel_out=00000000
+Time=120000 | reset=0 shift=0 serial_in=0 parallel_out=00000000
+Simulation complete via $finish(1) at time 140 NS + 0
+./uart1_tb.v:119         $finish;
+xcelium> exit
+TOOL:	xrun(64)	25.03-s006: Exiting on Apr 30, 2026 at 13:33:53 EEST  (total: 00:00:00)

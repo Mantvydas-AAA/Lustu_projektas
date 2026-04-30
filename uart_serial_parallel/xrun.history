@@ -1,0 +1,14 @@
+#e1(30Apr2026:13:19:35): source ./xcelium.d/env.d/env.history.30Apr2026_13_19_35
+s1(30Apr2026:13:19:35):  xrun -gui -access +rw uart1_testbench.v uart1.v 
+#e2(30Apr2026:13:24:45): source ./xcelium.d/env.d/env.history.30Apr2026_13_24_45
+s2(30Apr2026:13:24:45):  xrun -access +rw uart1_testbench.v uart1.v 
+#e3(30Apr2026:13:25:40): source ./xcelium.d/env.d/env.history.30Apr2026_13_25_40
+s3(30Apr2026:13:25:40):  xrun -gui -access +rw uart1_testbench.v uart1.v 
+#e4(30Apr2026:13:29:18): source ./xcelium.d/env.d/env.history.30Apr2026_13_29_18
+s4(30Apr2026:13:29:18):  xrun -access +rw uart1_tb.v uart1.v 
+#e5(30Apr2026:13:29:30): source ./xcelium.d/env.d/env.history.30Apr2026_13_29_30
+s5(30Apr2026:13:29:30):  xrun -access +rw uart1_tb.v uart1.v 
+#e6(30Apr2026:13:32:08): source ./xcelium.d/env.d/env.history.30Apr2026_13_32_08
+s6(30Apr2026:13:32:08):  xrun -access +rw uart1_tb.v uart1.v 
+#e7(30Apr2026:13:33:53): source ./xcelium.d/env.d/env.history.30Apr2026_13_33_53
+s7(30Apr2026:13:33:53):  xrun -access +rw uart1_tb.v uart1.v 
