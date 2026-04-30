@@ -94,16 +94,16 @@ module SIPO_tb;
 
 
 
-        shift = 0;
+   
 
 
 
         // Wait and observe
 
-        #20;
-
-
-
+        #10;
+        shift = 0;
+        serial_in = 0; // nunulinam kad nesiustu vienetiniu bitu, kuriu neskaitom
+        
         // Apply reset again
 
         reset = 1; #10;
