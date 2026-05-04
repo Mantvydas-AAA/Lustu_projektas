@@ -22,6 +22,7 @@ module SIPO_tb;
 
     wire [7:0] parallel_out;
 
+    wire [3:0] counter;
 
 
     // Instantiate the Unit Under Test (UUT)
@@ -36,7 +37,10 @@ module SIPO_tb;
 
     .shift(shift),
 
-    .parallel_out(parallel_out)
+    .parallel_out(parallel_out),
+
+    .counter(counter)
+
 
 );
 
@@ -62,6 +66,7 @@ module SIPO_tb;
 
 
 
+
         // Apply reset
 
         #10;
@@ -74,17 +79,7 @@ module SIPO_tb;
 
         shift = 1;
 
-
-
-        serial_in = 1; #10;
-
-        serial_in = 1; #10;
-
-        serial_in = 0; #10;
-
-        serial_in = 1; #10;
-
-        serial_in = 0; #10;
+        serial_in = 0; #10; // start bit
 
         serial_in = 1; #10;
 
@@ -92,7 +87,17 @@ module SIPO_tb;
 
         serial_in = 0; #10;
 
+        serial_in = 1; #10;
 
+        serial_in = 0; #10;
+
+        serial_in = 1; #10;
+
+        serial_in = 1; #10;
+
+        serial_in = 0; #10;
+
+        serial_in = 1; #10; // stop bit
 
    
 
@@ -101,14 +106,14 @@ module SIPO_tb;
         // Wait and observe
 
         #10;
-        shift = 0;
-        serial_in = 0; // nunulinam kad nesiustu vienetiniu bitu, kuriu neskaitom
+        //shift = 0;
+        //serial_in = 0; // nunulinam kad nesiustu vienetiniu bitu, kuriu neskaitom
         
         // Apply reset again
 
-        reset = 1; #10;
+        //reset = 1; #10;
 
-        reset = 0;
+        //reset = 0;
 
 
 
